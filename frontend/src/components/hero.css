@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.hero-content{
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    color: white;
+}
+.hero-head{
+    font-size: 3rem;
+    margin-bottom: 25px;
+
+}
+.hero-subhead{
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+.hero-button{
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    border: none;
+}
+.hero-button:hover{
+    color:white;
+    background-color: black;
+}
+.hero-shopnow{
+    text-decoration: none;
+    color: black;
+}
+.hero-div{
+    height: 600px;
+}
+
+@media (max-width:900px){
+    .hero-div{
+        height: 500px;
+    }
+}
+@media (max-width:500px){
+    .hero-div{
+        height: 400px;
+    }
+    .hero-head{
+        font-size: 2rem;
+    }
+    .hero-subhead{
+        font-size: 1rem;
+    }
+}

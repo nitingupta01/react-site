@@ -1,0 +1,18 @@
+.service-section{
+    margin-top: 10px;
+}
+.service-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2%;
+}
+@media (max-width:900px){
+    .service-body{
+    grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:450px){
+    .service-body{
+    grid-template-columns: 1fr;
+    }
+}

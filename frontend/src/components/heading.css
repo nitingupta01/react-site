@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.section-heading{
+    background-color: rgba(0, 0, 0, 0.811);
+    
+    text-align: center;
+    
+    padding: 2px;
+}
+.section-heading h1{
+    font-size: 2rem;
+    color: #FFE898;
+    padding: 10px;
+    border: double #FFE898;
+    border-width: 3px;
+}
+@media (max-width:450px){
+    .section-heading{
+        font-size: 1.5rem;
+    }
+}

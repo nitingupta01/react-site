@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.service-card{
+    margin:5px;
+    text-align: center;
+    padding: 15px;
+}
+.service-logo i{
+    font-size: 40px;
+    margin:4px;
+    margin-bottom: 20px;
+}
+.service-description {
+    font-size:20px;
+    margin: 4px;
+}
